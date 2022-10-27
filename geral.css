@@ -1,1 +1,12 @@
-
+calculadora {
+  fundo : azul;
+  largura :  200px ; _
+  preenchimento :  10px ; _
+  raio da borda :  10 px ;
+}
+. entrada da calculadora  {
+  fundo : vermelho
+  cor:
+  pedding:5px;
+  raio de ligação : 5
+}
