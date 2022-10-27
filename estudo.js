@@ -1,63 +1,64 @@
-let tabuada = 2;
-function escreva(){
-    document.write ("Tabuada do " + tabuada + "<br>")
-    document.write(tabuada + " x 1 = " + (tabuada*1) + "<br>");
-    document.write(tabuada + " x 2 = " + (tabuada*2) + "<br>");
-    document.write(tabuada + " x 3 = " + (tabuada*3) + "<br>");
-    document.write(tabuada + " x 4 = " + (tabuada*4) + "<br>");
-    document.write(tabuada + " x 5 = " + (tabuada*5) + "<br>");
-    document.write(tabuada + " x 6 = " + (tabuada*6) + "<br>");
-    document.write(tabuada + " x 7 = " + (tabuada*7) + "<br>");
-    document.write(tabuada + " x 8 = " + (tabuada*8) + "<br>");
-    document.write(tabuada + " x 9 = " + (tabuada*9) + "<br>");
-    document.write(tabuada + " x 10 = " + (tabuada*10) + "<br>");
+
+deixe  tabuada  =  2 ;
+função  escreva ( ) {
+    documento . escreva  ( "Tabuada do "  +  tabuada  +  "<br>" )
+    documento . escreva ( tabuada  +  " x 1 = "  +  ( tabuada * 1 )  +  "<br>" ) ;
+    documento . escreva ( tabuada  +  " x 2 = "  +  ( tabuada * 2 )  +  "<br>" ) ;
+    documento . escreva ( tabuada  +  " x 3 = "  +  ( tabuada * 3 )  +  "<br>" ) ;
+    documento . escreva ( tabuada  +  " x 4 = "  +  ( tabuada * 4 )  +  "<br>" ) ;
+    documento . escreva ( tabuada  +  " x 5 = "  +  ( tabuada * 5 )  +  "<br>" ) ;
+    documento . escreva ( tabuada  +  " x 6 = "  +  ( tabuada * 6 )  +  "<br>" ) ;
+    documento . escreva ( tabuada  +  " x 7 = "  +  ( tabuada * 7 )  +  "<br>" ) ;
+    documento . escreva ( tabuada  +  " x 8 = "  +  ( tabuada * 8 )  +  "<br>" ) ;
+    documento . escreva ( tabuada  +  " x 9 = "  +  ( tabuada * 9 )  +  "<br>" ) ;
+    documento . escreva ( tabuada  +  " x 10 = "  +  ( tabuada * 10 )  +  "<br>" ) ;
 }
 
-let lista = ["Jesus", "Spessato", "Jorge", "Duarte", "Waldete", "Raquel"]
+let  lista  =  [ "Jesus" ,  "Spessato" ,  "Jorge" ,  "Duarte" ,  "Waldete" ,  "Raquel" ]
 
 
-function mostra(){
-    document.write(lista.length + "<br>");
-    for(let i = 0; i < lista.length; i++){
-        document.write(lista[i] + "<br>");
+função  mostra ( ) {
+    documento . escreva ( lista . comprimento  +  "<br>" ) ;
+    for ( let  i  =  0 ;  i  <  lista . length ;  i ++ ) {
+        documento . escreva ( lista [ i ]  +  "<br>" ) ;
     }
 }
 
-function mostraTabuada(){
-    for(let i = 1; i <= 10; i++){
-        document.write("o valor do i" + i + "<br>");
+função  mostraTabuada ( ) {
+    for ( seja  i  =  1 ;  i  <=  10 ;  i ++ ) {
+        documento . escreva ( "o valor do i"  +  i  +  "<br>" ) ;
     }
 }    
-function total(){
-    let v = document.getElementById("valor").value;
-    let j = document.getElementById("juros").value;
-    let t = document.getElementById("meses").value;
-    let r = 0;
-    for(let i =1; i <=t; i++){
-        r = v * (1 + (j/100));
-        document.write ("Mês " + i + " - valor: " + r + "<br>");
-        v = r;
+função  total ( ) {
+    deixe  v  =  documento . getElementById ( "valor" ) . valor ;
+    seja  j  =  documento . getElementById ( "juros" ) . valor ;
+    seja  t  =  documento . getElementById ( "meses" ) . valor ;
+    seja  r  =  0 ;
+    for ( deixe  i  = 1 ;  i  <= t ;  i ++ ) {
+        r  =  v  *  ( 1  +  ( j / 100 ) ) ;
+        documento . escreva  ( "Mês "  +  i  +  " - valor: "  +  r  +  "<br>" ) ;
+        v  =  r ;
     }
-    document.write ("Resultado: " + r);
+    documento . escreva  ( "Resultado: "  +  r ) ;
 }
 
-function somaNota(){
-    let n1 = document.getElementById("b1").value;
-    let n2 = document.getElementById("b2").value;
-    let n3 = document.getElementById("b3").value;
-    let n4 = document.getElementById("b4").value;
+function  somaNota ( ) {
+    seja  n1  =  documento . getElementById ( "b1" ) . valor ;
+    seja  n2  =  documento . getElementById ( "b2" ) . valor ;
+    seja  n3  =  documento . getElementById ( "b3" ) . valor ;
+    deixe  n4  =  documento . getElementById ( "b4" ) . valor ;
 
-    let r = Number(n1)+Number(n2)+Number(n3)+Number(4);
+    let  r  =  Número ( n1 ) + Número ( n2 ) + Número ( n3 ) + Número ( 4 ) ;
 
-    document.getElementById("resul").innerHTML = "Soma:" + r
+    documento . getElementById ( "resul" ) . innerHTML  =  "Soma:"  +  r
 
-    function somaMedia(){
-        let n1 = document.getElementById("b1").value;
-        let n2 = document.getElementById("b2").value;
-        let n3 = document.getElementById("b3").value;
-        let n4 = document.getElementById("b4").value;
+    função  somaMedia ( ) {
+        seja  n1  =  documento . getElementById ( "b1" ) . valor ;
+        seja  n2  =  documento . getElementById ( "b2" ) . valor ;
+        seja  n3  =  documento . getElementById ( "b3" ) . valor ;
+        deixe  n4  =  documento . getElementById ( "b4" ) . valor ;
     
-        let r = Number(n1)+Number(n2)+Number(n3)+Number(4);
+        let  r  =  Número ( n1 ) + Número ( n2 ) + Número ( n3 ) + Número ( 4 ) ;
     
-        document.getElementById("media").innerHTML = "Media:" + r
+        documento . getElementById ( "media" ) . innerHTML  =  "Mídia:"  +  r
 }
