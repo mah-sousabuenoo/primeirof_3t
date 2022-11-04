@@ -1,58 +1,29 @@
-<!DOCTYPEhtml >
-< html  lang =" pt-br " >
-< cabeça >
-    < meta  charset =" UTF-8 " >
-    < meta  http-equiv = " Conteúdo compatível com X-UA " =" IE=edge " >
-    < meta  name =" viewport " content =" largura=largura do dispositivo, escala inicial=1.0 " >
-    < title > Primeiro F </ title >
-   < script  src =" estudo.js " > </ script >
-   < link  rel =" folha de estilo " href =" geral.css " >
-</ cabeça >
+<!DOCTYPE html>
+<html lang="pt-br">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro F</title>
+    <script src="estudo.js"></script>
+    <link rel="stylesheet" href="geral.css">
+</head>
 
-< corpo >
-  < div  class =" calculadora " >
-    < div  id =" spTotal " >
-    < span  id =" total " > Total: 0,00 </ span >
-  </ div >
-   Maiúsculas: < input  id =" valor " type =" text " > < br >
-br >    juros: < input  id = " " juros tipo texto " > <
-   Nº meses: < input  id =" meses " type =" text " > < br >
-   < button  onclick =" total() " > Enviar </ button >
-   < div  id =" spMeses " >
-   < span  id =" mes " > Meses </ span >
- </ div >
+<body>
+    <div class="calculadora">
+        <div id="spTotal">
+            <span id="total">Total: 0,00</span>
+        </div>
+        Capital: <input id="valor" type="text"><br>
+        Juros mensais: <input id="juros" type="text"><br>
+        Nr. meses: <input id="meses" type="text"><br>
+        <button onclick="total()"> Enviar</button><br>
+        <div id="spMes">
+            <span id="mes">Meses</span>
+        </div>
 
- </ div >
-</ corpo >
+    </div>
+</body>
 
-
-
-
-
-
-
-
-
-< br > < br > < br > < br > < br >
-< span  id =" resultado " > Resultado: 0,00 </ span > < br >
-Bimestre 1: < input  id =" b1 " type =" text " > < br >
-Bimestre 2: < input  id =" b2 " type =" text " > < br >
-Bimestre 3: < input  id =" b3 " type =" text " > < br >
-Bimestre 4: < input  id =" b4 " type =" text " > < br >
-
-< button  onclick =" somaNota() " > Soma das Notas </ button >
-
-< br > < br > < br > < br > < br >
-< span  id =" media " > Resultado: 0,00 </ span > < br >
-Bimestre 1: < input  id =" b1 " type =" text " > < br >
-Bimestre 2: < input  id =" b2 " type =" text " > < br >
-Bimestre 3: < input  id =" b3 " type =" text " > < br >
-Bimestre 4: < input  id =" b4 " type =" text " > < br >
-
-< button  onclick =" somaMedia() " > Soma das Mídias </ button >
-
-</ corpo >
-</ html >
-
-
+</html>
